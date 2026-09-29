@@ -21,7 +21,7 @@ select * from musicplaylist1;
 
 -- 2.Write a SQL query to display only the song_name and artist columns from the MusicPlaylist table, showing just the first 3 records using the LIMIT keyword.
 
-select song_name,artist from musicplaylist limit 3;
+select song_name,artist from musicplaylist1 limit 3;
 
 -- 3. Suppose you have a table named FoodOrders with columns: id, restaurant, food_item, and order_date. Write a SQL query to list all unique restaurant names where you have placed orders, using the DISTINCT keyword.
 
